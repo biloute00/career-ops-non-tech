@@ -101,10 +101,7 @@ career-ops first run: no cv.md yet. Whatever the user's first message is, start 
 - Convert it to cv.md word for word; list inconsistencies and fix only what they confirm.
 - Then ask in one message: target roles and level; cities and work mode (on-site, hybrid, full remote); document language (French or English); target and minimum gross annual salary; work authorization in France.
 - After their OK, set up the profile, targeting, job portals (adapted to their roles and market) and the tracker, then check with node doctor.mjs --json.
-<<<<<<< HEAD
 - End with a short table of what was set up, remind them this cloud session is temporary and offer to send their files, then ask: « Donne-moi l'URL d'une offre d'emploi pour lancer ta première évaluation. »
-=======
-- End with a short table of what was set up, $KEEP_FILES, then ask: « Donne-moi l'URL d'une offre d'emploi pour lancer ta première évaluation. »
 EOF
 else
   # 6. After onboarding: one use case only — a job URL in, a decision and
