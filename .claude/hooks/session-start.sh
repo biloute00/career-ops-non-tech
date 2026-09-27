@@ -120,7 +120,6 @@ When they send a URL:
 Documents (CV and letter) use the job posting's language; your messages stay in French. If the company forbids AI-generated application content, warn them and give the letter as notes instead.
 6. Close with « Une fois envoyé, dites-moi "c'est envoyé" ». Then run node set-status.mjs --report <report#> Applied --json (it also schedules the follow-up) and tell them the follow-up date (followupSeeded.nextDate).
 Display rule (mandatory, whole flow): display the tailored CV PDF right away each time it is created or updated, and display the HTML report (output/report-*.html) at the very end of every reply in which it was created or updated: your final action, after all your text and other files, with nothing written after it. Use the file-sending tool (SendUserFile) with display "render" for both, so they open in the Claude app's side panel (desktop and web). Never deliver these two as a download-only attachment, and never skip them. The cover letter PDF is sent normally. If no file-sending tool is available (e.g. in a terminal), open the CV with the default app (macOS: open <file>; Windows: start "" <file>; Linux: xdg-open <file>) and give its path, and end your reply with the HTML report path as the last line. In your message, confirm both are shown; if one could not be displayed, name the file and its path.
->>>>>>> 851c6fbc (Hooks: display the HTML report at the very end of the reply)
 EOF
 fi
 
